@@ -1,0 +1,143 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Valendata",
+  "theme": "maple",
+  "favicon": "https://media.brand.dev/9368dd59-b624-47ee-837e-7118bdeeca4e.png",
+  "colors": {
+    "primary": "#12b981",
+    "light": "#12b981",
+    "dark": "#12b981"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Plus Jakarta Sans"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans"
+    }
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Website",
+      "href": "https://valendata.com"
+    },
+    "links": [
+      {
+        "href": "mailto:info@valendata.com",
+        "label": "Support"
+      }
+    ]
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "credits-and-billing"
+            ],
+            "icon": "rocket"
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/skills",
+              "concepts/workflows",
+              "concepts/chrome-profiles",
+              "concepts/workspaces"
+            ],
+            "icon": "lightbulb"
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/recording-a-skill",
+              "guides/scheduling-skills",
+              "guides/using-the-marketplace",
+              "guides/exporting-data"
+            ],
+            "icon": "book-open"
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview"
+            ],
+            "icon": "plug"
+          },
+          {
+            "group": "Account & Security",
+            "pages": [
+              "account/two-factor-authentication",
+              "account/api-keys",
+              "account/data-export"
+            ],
+            "icon": "shield"
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "icon": "book-open",
+            "pages": [
+              "api-reference/introduction",
+              "api-reference/authentication"
+            ]
+          },
+          {
+            "group": "Skills",
+            "icon": "sparkles",
+            "pages": [
+              "api-reference/skills/run-by-id",
+              "api-reference/skills/run-by-slug",
+              "api-reference/skills/list",
+              "api-reference/skills/get"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "icon": "diagram-project",
+            "pages": [
+              "api-reference/workflows/list",
+              "api-reference/workflows/run"
+            ]
+          },
+          {
+            "group": "Runs",
+            "icon": "clock-rotate-left",
+            "pages": [
+              "api-reference/runs/list",
+              "api-reference/runs/get"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://valendata.com"
+    }
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "logo": {
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png",
+    "href": "https://valendata.com/"
+  },
+  "api": {
+    "playground": {
+      "display": "interactive"
+    }
+  }
+}
